@@ -1,0 +1,239 @@
+.menu{
+    text-align: center;
+}
+.menu a{
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+    width: 100px;
+}
+.menu a:hover{
+    background-color: #cccccc;
+}
+.header{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 200px 0;
+    margin: 20px 0 0 0;
+    background-image: url(img/background_img.jpg);
+    font-size: 40px;
+    font-style: italic;
+}
+.header a{
+    color: #000000;
+    padding: 15px 24px;
+    background-color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    font-style: normal;
+}
+.header a:hover{
+    background-color:rgb(106, 109, 189);
+}
+#about_company img{
+    float: right;
+    margin: 30px;
+    top: -70px;
+    position: relative;
+}
+#about_company{
+    max-width: 1200px;
+    padding: 40px;
+    margin: 0 auto;
+}
+#about_company a{
+    padding: 15px 24px;
+    color: white;
+    background-color: rgb(14, 14, 90);
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 20px;
+    margin: 20px 0;
+}
+#about_company a:hover{
+    background-color: rgb(106, 109, 189);
+}
+.button2{
+    margin: 40px 0;
+}
+ #about_company h2{ 
+    text-align: center;
+    font-size: 30px;
+ }  
+ /*  .member{
+     display: inline-block;
+     width: 25%;
+     min-width: 340px;
+ }
+ .member img{
+     width: 100%;
+ } */
+#team{
+    text-align: center;
+}
+#team h2{
+    font-size: 30px;
+}
+.quote{
+    margin: 20px 0 20px;
+    font-size: 20px;
+}
+  .member {
+    display: inline-block;
+    width: 20%;
+    min-width: 340px;
+    vertical-align: top;
+    margin: 20px 10px 20px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 2px 5px gray;
+  }
+  .member img {
+    width: 100%;
+  }
+  .ovi{
+      margin: 0 0 23px 0;
+  }
+  .member a{
+    color: #ffffff;
+    padding: 15px 24px;
+    background-color: rgb(6, 0, 85);
+    border-radius: 20px;
+    text-decoration: none;
+    font-style: normal; 
+  }
+  .member a:hover{
+    background-color: rgb(106, 109, 189);
+  }
+  .description{
+      margin-bottom: 40px;
+  }
+.tarif li{
+    list-style: none;
+    border-bottom-width: 1px;
+    border-bottom-style:solid ;
+    border-bottom-color: #1a1a1a;
+    padding: 25px;
+}
+
+.tarif{
+    display: inline-block;
+    width: 30%;
+    min-width: 150px;
+    margin: 10px;
+    vertical-align: middle;
+    background-color: #dddddd;
+    padding: 0;
+    border-radius: 30px;
+}
+.tarif li:last-child{
+    background-color: #f1f1f1;
+    padding: 24px 0;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.button{
+    background-color:  rgb(6, 7, 77);
+    padding: 12px 35px;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 25px;
+}
+.button:hover{
+    background-color:  rgb(106, 109, 189);
+}
+#prices{
+    background-color: #616161;
+    text-align: center;
+    padding: 50px 0;
+}
+#prices h2{
+    font-size: 30px;
+    color: white;
+}
+.prices__desription{
+    font-size: 20px;
+    color: white;
+}
+.price{
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+.important{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+.tarif .tarif_name1{
+    color: white;
+    background-color: rgb(6, 7, 77);
+    font-size: 24px;
+    padding: 35px 0;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.tarif .tarif_name2{
+    color: white;
+    background-color: rgb(56, 20, 97);
+    font-size: 26px;
+    padding: 35px 0;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.tarif .tarif_name3{
+    color: white;
+    background-color: rgb(76, 6, 122);
+    font-size: 28px;
+    padding: 35px 0;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+#contact{
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 40px 0;
+}
+.contact_adress{
+    background-image: url(img/location.jpg);
+}
+.contact_phone{
+    background-image: url(img/phone.png);
+}
+.contact_mail{
+    background-image: url(img/email.jpg);
+}
+.contact_info{
+    text-align: left;
+    padding-left: 30px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    margin-left: 5%;
+}
+#contact input{
+    padding: 8px;
+    width: 90%;
+}
+#contact button{
+    background-color:  rgb(6, 7, 77);
+    padding: 12px 35px;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 25px;
+}
+#contact button:hover{
+    background-color:  rgb(106, 109, 189);
+}
+footer{
+    width: 100%;
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    height: 20px;
+    justify-content: center;
+    padding: 10px 0;
+}

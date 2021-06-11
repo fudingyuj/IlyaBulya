@@ -1,0 +1,61 @@
+@media(max-width:1050px){
+    .offer{
+        flex-direction: column;
+    }   
+}
+@media(max-width:935px){
+    .menu__item{
+        margin: 0 20px;
+    }
+}
+@media(max-width:615px){
+    .menu{
+        flex-direction: column;
+        text-align: center;
+    }
+    .avatar{
+        width: 300px;
+    }
+    .skill_block{
+        width: 50%;
+        text-align: center;
+        margin: 20px 0;
+    }
+    .project_block{
+        width: 50%;
+        text-align: center;
+        margin: 20px 0;
+    }
+}
+@media(max-width:375px){
+    .avatar{
+        width: 200px;
+    }
+    .offer{
+        margin: 0;
+        text-align: center;
+    }
+    .offer__title{
+        font-size: 30px;
+    }
+    .offer__text{
+        font-size: 19px;
+    }
+    .icons_i{
+        justify-content: center;
+    }
+    .iconsitem {
+        font-size: 40px;
+        margin: 10px;
+    }
+    .skill_block{
+        width: 100%;
+        text-align: center;
+        margin: 20px 0;
+    }
+    .project_block{
+        width: 100%;
+        text-align: center;
+        margin: 20px 0;
+    }
+}

@@ -1,0 +1,10 @@
+body{
+    background-color: black;
+    align-items: center;
+}
+img{
+    width: 500px;
+    position: relative;
+    left: 35%;
+    margin-top: 20px;
+}

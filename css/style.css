@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+ul, li{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3{
+    font-weight: 700;
+    color: black;
+}
+h3{
+    font-weight: 400;
+}
+h2{
+    text-align: center;
+}
+.title{
+    padding: 100px 0 70px 0;
+    text-align: center;
+}
+.title__main{
+    font-size: 30px;
+}
+.title_text{
+    font-size: 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+.yellow{
+    color: #fcdb00;
+}
+
+
+/*first section*/ 
+.header{
+    background-color: #fcdb00;
+    color: black;
+    padding: 60px 0 50px 0;
+}
+.menu{
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+.menu__item{
+    margin: 0 60px;
+}
+.menu__item a{
+    font-size: 25px;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+}
+.menu__item a:hover{
+    color: rgb(100, 100, 100);
+}
+.offer{
+    margin: 60px 100px;
+    display: flex;
+    justify-content: center;
+}
+.offer__title{
+    font-size: 45px;
+    color: black;
+    font-weight: 700;
+}
+.offer__text{
+    font-size: 32px;
+    color: black;
+    font-weight: 400;
+}
+.offer_info{ 
+    margin: 25px;
+}
+.avatar{
+    width: 400px;
+    margin: 0px;
+    border-radius: 25px;
+}
+.icons{
+    width: 100%;
+}
+.iconsitem{
+    font-size: 50px;
+    margin: 15px;
+}
+.iconsitem a{
+    color: black;
+
+}
+.iconsitem a:hover{
+    color: rgb(100, 100, 100);
+}
+.icons_i{
+    display: flex;
+}
+
+
+
+/*second section*/
+.skill{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    height: 50%;
+}
+.skill_title{
+    font-size: 25px;
+    justify-content: center;
+}
+.container_skill{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.title__main{
+    font-size: 35px;
+    margin: 35px 0 0 0;
+}
+.title__sub{
+    text-align: center;
+    margin: 15px 0 30px 0;
+}
+.skill_block{
+    width: 30%;
+    text-align: center;
+    margin: 20px 0;
+}
+.skill__title{
+    font-size: 20px;
+    margin-bottom: 9px;
+    font-weight: bold;
+}
+.skill__text{
+    color: black; 
+}
+.skill__text a{
+    color: gray;
+    text-decoration: none;
+}
+.skill__text a:hover{
+    font-weight: bold;
+}
+
+
+/*third section*/
+.project{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    color: white;
+    height: 50%;
+}
+.project_title{
+    font-size: 25px;
+    justify-content: center;
+}
+.project__main{
+    font-size: 35px;
+    margin: 35px 0 0 0;
+    color: white;
+}
+.title__subs{
+    text-align: center;
+    margin: 15px 0 30px 0;
+}
+.project_block{
+    width: 30%;
+    text-align: center;
+    margin: 20px 0;
+}
+.project__title{
+    font-size: 20px;
+    margin-bottom: 9px;
+    font-weight: bold;
+    color: white;
+}
+.project__text{
+    color: rgb(255, 255, 255); 
+}
+.project__text a{
+    color: gray;
+    text-decoration: none;
+}
+.project__text a:hover{
+    font-weight: bold;
+}
+
+
+/*forth section*/
+.touch{
+    text-align: center;
+}
+.form_input{
+    padding: 8px 40px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+}
+.form_button{
+    padding: 8px 20px;
+    background-color: #fcdb00;
+    color: black;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+}
+.icons2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+
+/*fifth section*/
+.footer{
+    text-align: center;
+    background-color:  #fcdb00;
+    font-size: 18px;
+    color: black;
+    padding: 10px;
+}
