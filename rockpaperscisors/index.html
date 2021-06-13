@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Камень ножницы бумага</h1>
+    </header>
+    <div class="score">
+        <div id="user_label" class="badge">User</div>
+        <div id="computer_label" class="badge">Computer</div>
+        <span id="user_score">0</span>:
+        <span id="computer_score">0</span>
+    </div>
+    <div class="result">
+        <p>Камень сломал ножницы. Ты выиграл.</p>
+    </div>
+    <div class="choises">
+        <div class="choise" id="r">
+            <img src="img/rock.png" alt="r" class="choise_element">
+        </div>
+        <div class="choise" id="p">
+            <img src="img/paper.png" alt="p" class="choise_element">
+        </div>
+        <div class="choise" id="s">
+            <img src="img/scissors.png" alt="s" class="choise_element">
+        </div>
+    </div>
+    <p id="action_message">Игра началась.</p>
+    <script src="script.js"></script>
+</body>
+</html>
