@@ -8,6 +8,7 @@ body{
     background: linear-gradient(to right, rgb(255, 152, 104), #ffe677);
     align-items: center;
     font-family: Balsamiq Sans, sans-serif;
+    width: 100%;
 }
 header{
     background-color: rgb(158, 90, 0);
@@ -38,12 +39,8 @@ h1{
     text-align: center;
 }
 #action_message{
-    position: relative;
-    top: 50px;
-    width: 20%;
     height: 60px;
     text-align: center;
-    left: 800px;
 }
 .choise{
     display: inline-block;
